@@ -19,7 +19,7 @@ readonly TEMPLATE_REPO="https://github.com/Pinghuachiu/antarose-template-java.gi
 readonly SCRIPT_VERSION="1.0.0"
 readonly DEFAULT_AUTHOR="jackalchiu@antarose.com"
 readonly DEFAULT_DESCRIPTION="A Java Spring Boot project built with Antarose Template"
-readonly MIN_JAVA_VERSION="17"
+readonly MIN_JAVA_VERSION="21"
 readonly GRADLE_VERSION="8.10.2"
 
 # Colors for output
