@@ -434,18 +434,18 @@ print_next_steps() {
     echo -e "  ${CYAN}cd ${PROJECT_NAME}${NC}"
     echo ""
     echo -e "${BOLD}Start development servers:${NC}"
-    echo -e "  ${CYAN}# Terminal 1 - Backend (http://localhost:5060)${NC}"
+    echo -e "  ${CYAN}# Terminal 1 - Backend (http://localhost:3030)${NC}"
     echo -e "  ${CYAN}cd backend${NC}"
     echo -e "  ${CYAN}./gradlew bootRun${NC}"
     echo ""
-    echo -e "  ${CYAN}# Terminal 2 - Frontend (http://localhost:5050)${NC}"
+    echo -e "  ${CYAN}# Terminal 2 - Frontend (http://localhost:3000)${NC}"
     echo -e "  ${CYAN}cd frontend && npm run dev${NC}"
     echo ""
 
     echo -e "${BOLD}API Documentation:${NC}"
-    echo -e "  ${CYAN}http://localhost:5060/api/health${NC}  - Health Check"
-    echo -e "  ${CYAN}http://localhost:5060/api/hello${NC}   - Hello API"
-    echo -e "  ${CYAN}http://localhost:5060/h2-console${NC} - H2 Database Console"
+    echo -e "  ${CYAN}http://localhost:3030/api/health${NC}  - Health Check"
+    echo -e "  ${CYAN}http://localhost:3030/api/hello${NC}   - Hello API"
+    echo -e "  ${CYAN}http://localhost:3030/h2-console${NC} - H2 Database Console"
     echo ""
 
     if [[ -n "${CONFIG_REPO_URL}" ]]; then
